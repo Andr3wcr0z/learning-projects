@@ -1,0 +1,31 @@
+use std::io;
+#[macro_use]
+extern crate text_io;
+
+fn main() {
+    loop {
+        // diameter input
+        println!("ONLY SOLVES FOR THE CIRCUMFERENCE");
+        println!("Calculate your Cirumference!");
+        println!("Please enter the Diameter:");
+        // diameter but undefined type
+        calculating();
+    }
+}
+
+fn calculating() {
+    const PI: f32 = 3.14;
+    let diam: f32 = read!();
+    let circumference: f32 = PI * diam;
+    println!("The Circumference is: {circumference}")
+
+}
+
+fn quit() {
+    let mut quit = String::new();
+    io::stdin()
+        .read_line(&mut guess)
+        .expect("Failed to read line");
+    if quit == "quit" {
+        end;
+}
