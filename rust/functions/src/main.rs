@@ -6,7 +6,7 @@ fn main() {
 
     fn calculating() {
         loop {
-            println!("ONLY SOLVES FOR THE CIRCUMFERENCE");
+            println!("Ctrl+C to quit the program");
             println!("Calculate your Cirumference!");
             println!("Please enter the Diameter:");
             const PI: f32 = 3.14;
